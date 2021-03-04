@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Ticket</title>
+    <script src="matchDesc.js"></script>
+    <link rel="stylesheet" href="matchDesc.css">
+</head>
+<body>
+    <div class="container">
+        <img src="./asset/ticket1.png" alt="Ticket" >
+        <hr/>
+        <div class="flex">
+            <span id="team1"></span>
+            <span id="team2"></span>
+        </div>
+        <div class="league">
+            <span id="league"></span>
+        </div>
+        <div class="location">
+            <span id="location"></span>
+        </div>
+        <div class="date">
+            <span id="date"></span>
+        </div>
+        <div class="ticket">
+            <span>
+                <input type="button" value="  -  " id="dec" onclick="decNumber()"/>
+                <input type="text" id="display" value="0"/>
+                <input type="button" value="  +  " id="inc" onclick="incNumber()"/>
+            </span>
+        </div>
+        <div class="price">
+            <span id="price"></span>
+        </div>
+        <div class="button">
+            <button type="submit" id="book" onclick="book()">Book Ticket</button>
+        </div>
+    </div>
+</body>
+</html>

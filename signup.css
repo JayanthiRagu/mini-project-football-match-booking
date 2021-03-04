@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align:center;
+  margin:0px;
+  padding:0px;
+  min-height: 100%;
+  min-width: 100%;
+  background-color: rgb(165, 156, 216);
+}
+form {
+  background: #fff;
+  padding: 4em 4em 2em;
+  max-width: 400px;
+  margin: 50px auto 0;
+  box-shadow: 0 0 1em #222;
+  border-radius: 2px;
+}
+h2 {
+    margin:0 0 50px 0;
+    padding:10px;
+    font-size:30px;
+    text-align:center;
+    border-bottom:solid 1px rgb(165, 156, 216);
+}
+p {
+    margin: 0 0 2em 0;
+    position: relative;
+}
+.form_control{
+  width: 300px;
+  height:30px;
+  border-radius: 7px;
+}
+.form_button{
+  width: 200px;
+  height:30px;
+  border-radius: 5px;
+  background-color: rgb(80, 63, 175);
+}

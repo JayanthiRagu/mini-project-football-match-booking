@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./home.js"></script>
+    <title>Home</title>
+</head>
+<body>
+        <h1>Bookingx</h1>
+        <div class="header">
+            <div class="header1">
+                <span onclick="todayMatch()">Today's Match</span>
+                <span onclick="upcoming()">Upcoming</span>
+                <div class="filter">
+                    <select name="filter" id="filterGroup" class="filter1">
+                        <option value="team">Team</option>
+                        <option value="country">Country</option>
+                        <option value="location">Location</option>
+                      </select>
+                </div> 
+            </div> 
+        </div>
+        <div class="table" id="table">
+
+        </div>
+</body>
+</html>

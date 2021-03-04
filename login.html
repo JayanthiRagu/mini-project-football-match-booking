@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <div class="container1">
+        <img src="./asset/sign_in.jpg" alt="" class="img">
+        <div class="container3">
+            <form method="get" target="blank">
+                <h2>Sign In</h2>
+                    <p>
+                        <!-- <label for="Email" class="floatLabel">Email</label> -->
+                        <input id="email" name="Email" class="form_control" type="text" placeholder="Enter Your EmailId">
+                    </p>
+                    <p>
+                        <!-- <label for="password" class="floatLabel">Password</label> -->
+                        <input id="password" name="password" class="form_control" type="password" placeholder="Enter Your Password">
+                    </p>
+                    <p>
+                        <input type="submit" class="form_button" value="Login" id="submit" onclick="login()">
+                    </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+*{
+    padding:0px;
+    margin:0px;
+    background-color: rgb(140, 168, 204);
+}
+img{
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    width: 600px;
+    opacity: 0.8;
+}
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 15px auto;
+    padding: 10 10;
+    width: 80%;
+}
+.flex{
+    display:flex;
+    justify-content: space-around;
+    font-size: larger;
+    margin:40px;
+}
+.league,.location,.date,.ticket,.price,.button{
+    text-align: center;
+    margin:30px;
+    font-size: larger;
+}
+#dec,#inc{
+    padding:2px;
+    background-color:white;
+    font-size: 20px;
+}
+#book{
+border-radius: 10px;
+background-color: white;
+padding: 15px;
+}
+#display{
+    text-align: center;
+    font-size: larger;
+    width:100px;
+}
+h1{
+    text-align: center;
+    margin: 60px;
+}
+.price{
+    display:block;
+}
+a{
+    text-align: center;
+    margin:auto;
+}

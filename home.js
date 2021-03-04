@@ -169,7 +169,10 @@ function upcoming(){
                 var homeTeam = res.data.matches[i].homeTeam.name;
                 var awayTeam = res.data.matches[i].awayTeam.name;
                 var location = res.data.matches[i].competition.area.name;
-                var date = res.data.filters.dateFrom;
+                var date5 = new Date(res.data.matches[i].utcDate);
+            
+                var matchDate = date5.getFullYear()+'- 0' + (date5.getMonth()+1) + '- 0'+date5.getDate();
+                var date = matchDate;
                 window.sessionStorage.setItem('league', league);
                 window.sessionStorage.setItem('homeTeam', homeTeam);
                 window.sessionStorage.setItem('awayTeam', awayTeam);

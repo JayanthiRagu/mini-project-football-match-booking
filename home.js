@@ -191,3 +191,6 @@ function upcoming(){
 function bookTicket(){
     window.location.href="matchDesc.html";
 }
+function logout(){
+    window.location.href="login.html";
+}

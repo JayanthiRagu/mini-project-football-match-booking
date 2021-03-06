@@ -11,7 +11,7 @@ body {
 form {
   background: #fff;
   padding: 4em 4em 2em;
-  max-width: 400px;
+  max-width: 500px;
   margin: 50px auto 0;
   box-shadow: 0 0 1em #222;
   border-radius: 2px;
@@ -37,4 +37,16 @@ p {
   height:30px;
   border-radius: 5px;
   background-color: rgb(80, 63, 175);
+}
+label{
+  font-size: larger;
+  float: left;
+    width: 140px;
+    text-align: right;
+    padding-top: 10px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
 }

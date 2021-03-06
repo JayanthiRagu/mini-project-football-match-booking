@@ -13,7 +13,7 @@ h1{
     padding:15px;
 }
 span{
-    padding-left: 20px;
+    padding-left: 80px;
     float:left;
     font-size:larger;
     font-weight: bold;
@@ -34,7 +34,7 @@ span{
     display: inline-flex;
     padding:35px;
     flex-wrap: wrap;
-    gap: 60px;
+    gap: 90px;
 }
 table{
     position:relative;
@@ -52,7 +52,7 @@ tr{
     text-align: center;
 }
 tr:nth-child(5){
-    background-color:rgb(223, 67, 67);
+    background-color:rgb(109, 109, 211);
     cursor: pointer;
 }
 td{

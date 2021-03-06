@@ -4,6 +4,7 @@ let axiosConfig = {
         'X-Auth-Token': 'c9dc8ea6528341c99f679ccf18869dc2'
     }
   };
+//Today's Match
 function todayMatch(){
     const myNode = document.getElementById("table");
     while (myNode.firstChild) {
@@ -86,6 +87,7 @@ function todayMatch(){
         console.log(error);
       });
 }
+//Upcoming matches
 function upcoming(){
     const myNode = document.getElementById("table");
   while (myNode.firstChild) {

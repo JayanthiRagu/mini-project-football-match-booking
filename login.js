@@ -1,3 +1,4 @@
+//login compare from session storage
 function login(){
     var email1=document.getElementById("email").value;
     var password1 = document.getElementById("password").value;
